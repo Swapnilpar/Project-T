@@ -1,0 +1,19 @@
+.tools-body{
+    .container{
+
+        .card-img-wrap {
+            height: 200px; /* Example fixed height */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+               max-height: 100%;
+               max-width: 100%;
+           }
+        }
+    }
+
+    /* Ensure images fit the container while maintaining aspect ratio */
+}
+
